@@ -126,10 +126,14 @@ $selection-bg: #26351c !default;
   display: inline-block;
 }
 
+// a nice brush-like highlighting (https://svgbox.net/blog/create-marker-effect/)
+// But it does not work, see https://github.com/quarto-dev/quarto-cli/discussions/5694
 .hl {
-  background: url("pen-brushes.svg");  
-  margin: -2px -6px;
-  padding:  2px  6px;
+  //background: url("pen-brushes.svg");  
+  background-color: #fff000;
+  padding:  2px  2px;
+  border-radius: 5px;
+  display: inline-block;
 }
 
 
