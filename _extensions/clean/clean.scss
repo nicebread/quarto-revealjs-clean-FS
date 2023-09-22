@@ -76,6 +76,12 @@ $selection-bg: #26351c !default;
     }
   }
 
+  .license {
+    color: $accent;
+    font-style: italic;
+    margin-top: 1em;
+  }
+
 }
 
 
@@ -234,3 +240,7 @@ $selection-bg: #26351c !default;
   height: auto;
   object-fit: contain;
 }
+
+
+// FS additions
+

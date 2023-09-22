@@ -1,4 +1,8 @@
-# Quarto clean theme
+# NOTES FELIX
+
+https://stackoverflow.com/questions/76505317/custom-footer-on-the-title-slide-for-quarto-revealjs-slides
+
+# Quarto clean theme - FOMO
 
 A minimal and elegant presentation theme for Quarto Reveal.js, inspired by Kyle's
 [LaTex template](https://raw.githack.com/kylebutts/templates/master/latex-slides/auxiliary/slides.pdf).
@@ -16,7 +20,7 @@ commands to get started.
 If you would like to add the **clean** theme to an existing directory:
 
 ```bash
-quarto install extension grantmcdermott/quarto-revealjs-clean
+quarto install extension nicebread/quarto-revealjs-clean-FS
 ```
 
 Alternatively, you can use a
