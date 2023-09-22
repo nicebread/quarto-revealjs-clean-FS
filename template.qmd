@@ -2,9 +2,9 @@
 title: A title2
 subtitle: A subtitle
 format:
-  clean-revealjs:
+  FOMO-revealjs:
     template-partials:
-      - _title-slide.html
+      - title-slide.html
 author:
   - name: Your Name
     orcid: 0000-0000-0000-0000
@@ -13,9 +13,9 @@ author:
 date: last-modified
 ---
 
-# Main slide
+# Main slide {background-image="neurons.jpg" background-position="top right" background-size="600px"}
 
-## Example slide
+## Example slide 
 
 ### This is a subtitle
 
