@@ -16,7 +16,7 @@ date: last-modified
 ## Sensors
 ### Perceiving the environment
 
-Organisms have a vast range of sensors for perceiving their environment. These have been adapted to selection pressures:
+[Organisms]{.hl} have a vast range of sensors for perceiving their environment. These have been adapted to selection pressures:
 
 - Humans don't have sensors for ultraviolet light (bees do)
 - We have no sensors for radioactivity, as this was no relevant selective force

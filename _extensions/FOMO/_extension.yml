@@ -18,3 +18,8 @@ contributes:
         - background-title-FOMO.png
         - network-ball.png
         - neurons.jpg
+        - pen-brushes.svg
+      transition: slide
+      background-transition: fade
+      touch: true
+      embed-resources: true

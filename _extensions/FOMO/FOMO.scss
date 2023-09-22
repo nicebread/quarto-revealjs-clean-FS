@@ -126,6 +126,13 @@ $selection-bg: #26351c !default;
   display: inline-block;
 }
 
+.hl {
+  background: url("pen-brushes.svg");  
+  margin: -2px -6px;
+  padding:  2px  6px;
+}
+
+
 // lists
 
 // Unordered lists
