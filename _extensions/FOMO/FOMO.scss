@@ -7,11 +7,12 @@ $accent2: #9a2515;
 $right-arrow: "\2192"; // Unicode character for right arrow
 
 // fonts
-@import url(https://fonts.googleapis.com/css?family=Roboto:200,200i,300,300i,350,350i,400,400i);
-$font-family-sans-serif: "Roboto", sans-serif !default;
-$presentation-font-size-root: 36px;
+@import url(https://fonts.googleapis.com/css?family=Lato:200,200i,300,300i,350,350i,400,400i);
+@import url(https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,350,350i,400,400i);
+$font-family-sans-serif: "Lato", sans-serif !default;
+$presentation-font-size-root: 30px;
 
-$presentation-heading-font: "Roboto", sans-serif !default;
+$presentation-heading-font: "Nunito", sans-serif !default;
 $presentation-heading-color: $jet !default;
 $presentation-heading-font-weight: 200;
 //$presentation-heading-line-height: 2;
@@ -85,16 +86,21 @@ $selection-bg: #26351c !default;
 }
 
 
+.reveal h1 {
+  font-weight: 350;
+  font-size: 2em;
+}
+
 .reveal h2 {
   font-weight: 350;
-  font-size: 1.4em;
+  font-size: 1.7em;
 }
 
 .reveal h3 {
   color: $accent;
   font-style: italic;
-  font-weight: 350;
-  font-size: 0.95em;
+  font-weight: 300;
+  font-size: 1.1em;
 }
 
 .reveal h4 {

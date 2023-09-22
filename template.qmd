@@ -13,6 +13,17 @@ author:
 date: last-modified
 ---
 
+## Sensors
+### Perceiving the environment
+
+Organisms have a vast range of sensors for perceiving their environment. These have been adapted to selection pressures:
+
+- Humans don't have sensors for ultraviolet light (bees do)
+- We have no sensors for radioactivity, as this was no relevant selective force
+- Single-celled organism have, for example ...
+    - chemoreceptors for sugar
+    - tactile sense (simple membranes transmitting changes in pressure)
+
 # Main slide {background-image="neurons.jpg" background-position="top right" background-size="600px"}
 
 ## Example slide 
