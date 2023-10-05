@@ -6,6 +6,7 @@ contributes:
   formats:
     revealjs:
       theme: [default, FOMO.scss]
+      css: hl.css
       menu:
         side: left
       slide-number: true
