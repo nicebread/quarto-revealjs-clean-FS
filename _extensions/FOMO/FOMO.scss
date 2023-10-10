@@ -253,6 +253,11 @@ $selection-bg: #26351c !default;
 // FS additions
 
 // very small font size for long text
+.reveal .smaller {
+  font-size: 85%;
+}
+
+// very small font size for long text
 .reveal .smallest {
   font-size: 70%;
 }
