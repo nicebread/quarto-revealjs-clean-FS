@@ -2,6 +2,12 @@
 
 https://stackoverflow.com/questions/76505317/custom-footer-on-the-title-slide-for-quarto-revealjs-slides
 
+# TODO:
+
+Store Google fonts locally in template:
+https://github.com/quarto-dev/quarto-cli/issues/4387
+
+
 # Quarto clean theme - FOMO
 
 A minimal and elegant presentation theme for Quarto Reveal.js, inspired by Kyle's

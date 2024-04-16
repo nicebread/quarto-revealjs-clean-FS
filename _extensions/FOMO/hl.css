@@ -7,3 +7,11 @@
   display: inline-block;
 }
 
+.alert {
+  color: #9a2515;
+}
+
+/* :root {
+  --mermaid-node-fg-color: #ff0000;
+  --mermaid-label-fg-color: #ff0000;
+} */

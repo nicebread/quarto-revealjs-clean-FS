@@ -3,6 +3,7 @@ title: A title2
 subtitle: A subtitle
 format:
   FOMO-revealjs:
+    output-ext: slide.html
     template-partials:
       - title-slide.html
 author:
@@ -12,6 +13,22 @@ author:
     affiliations: Your Institution
 date: last-modified
 ---
+
+## mermaid test
+
+```{mermaid}
+%%| fig-width: 18
+%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%
+graph LR
+    START[ ] -- x1 --> f[y = 3 + 0.5*x1 + 2*x]
+    START2[ ] -- x2 --> f
+    f -- y --> STOP[ ]
+
+    style START fill-opacity:0, stroke-opacity:0;
+    style START2 fill-opacity:0, stroke-opacity:0;
+    style STOP  fill-opacity:0, stroke-opacity:0;
+```
+
 
 ## [{{< fa people-group size=1x >}} Group exercise: Cover your ass, Level 3]{.r-fit-text}
 ### Construct and variable definitions
