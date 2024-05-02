@@ -10,7 +10,7 @@ The theme is heavily based on the **[clean](https://github.com/grantmcdermott/qu
 Depending on your use case, here are some [Quarto CLI](https://quarto.org/)
 commands to get started.
 
-If you would like to add the **nicebread** theme to an existing directory:
+If you would like to add the **nicetheme** theme to an existing directory:
 
 ```bash
 quarto install extension nicebread/quarto-FS
@@ -18,12 +18,10 @@ quarto install extension nicebread/quarto-FS
 
 Alternatively, you can use a
 [Quarto template](https://quarto.org/docs/extensions/starter-templates.html)
-that bundles the **nicebread** theme plus a .qmd starter document. This is a better
+that bundles the **nicetheme** theme plus a .qmd starter document. This is a better
 option if you are starting a new project from scratch, since it will automatically
 create a new directory with all of the necessary scaffolding in one go. We provide
 two template options.
-
-- Bare bones template
 
 ```bash
 quarto use template nicebread/quarto-FS
@@ -69,14 +67,14 @@ But if you need the `{.smallest}` class as a "last resort" to squeeze everything
 
 ---
 
-For ==highlighting== words or short sentences with a yellow background, use `{.hl}`:
+For **highlighting** words or short sentences with a yellow background, use `{.hl}`:
 `This is a [highlighted]{.hl} word.`
 
 ---
 
 ### References
 
-Put links and references into the ==footer==. Whenever possible, provide an html link to the source. Try to find an Open Access version of papers and add this as additional link (if the original source is not already OA).
+Put links and references into the **footer**. Whenever possible, provide an html link to the source. Try to find an Open Access version of papers and add this as additional link (if the original source is not already OA).
 
 **Example reference**:
 
