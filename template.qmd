@@ -1,16 +1,16 @@
 ---
-title: A title2
+title: Main Title
 subtitle: A subtitle
 format:
-  FOMO-revealjs:
+  nicetheme-revealjs:
     output-ext: slide.html
     template-partials:
       - title-slide.html
 author:
-  - name: Your Name
-    orcid: 0000-0000-0000-0000
-    email: alias@email.com
-    affiliations: Your Institution
+  - name: Zapp Brannigan
+    orcid: 0123-4567-8901-1111
+    email: zapp@gorgeous.xxx
+    affiliations: Nimbus University
 date: last-modified
 ---
 
@@ -52,40 +52,10 @@ In the lecture, you learned how a good construct definition looks like. Apply th
 :::
 
 ::: {.column width='30%'}
-![](img/changelog_example.png){fig-align="center" height="200" style="filter: drop-shadow(6px 6px 8px #555555);"}
+Test
 :::
 
 ::::
-
-
-## [{{< fa people-group size=1x >}} Group exercise: Cover your ass, Level 3]{.r-fit-text}
-### Construct and variable definitions
-
-:::: {.columns}
-
-::: {.column width='70%' .smallest}
-In the lecture, you learned how a good construct definition looks like. Apply that new skill to your model!
-
-**Task**:
-
-- Develop proper definitions for *all* variables and concepts in your model
-- If necessary, update the model structure in [draw.io](https://www.drawio.com); increase either the *minor* version (e.g., to `0.3.0`) or only the *patch* version (e.g., `0.2.1`); export a new `xml` file.
-- Provide the definitions of the model's variables and constructs in a separate markdown file.
-
-**Deliverables**:
-
-- Create a `CHANGELOG.md` file that explains the changes in the model in more detail.
-- Push both files to your group's Github repo. 
-- Write a meaningful commit message that explains the changes.
-:::
-
-::: {.column width='30%'}
-![](img/changelog_example.png){fig-align="center" height="200" style="filter: drop-shadow(6px 6px 8px #555555);"}
-:::
-
-::::
-
-
 
 ## Sensors
 ### Perceiving the environment
