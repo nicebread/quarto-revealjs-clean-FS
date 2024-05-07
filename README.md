@@ -112,3 +112,28 @@ When shrinking images, only use *either* `height=???px` *or* `width=???px` (othe
 ```
 ![](img/Observation-Intervention-Modells-Graph.jpg){ height=300px }
 ```
+
+
+# Troubleshooting: How to resolve merge conflicts after pulling
+
+1. Locally resolve the merge conflict:
+
+Look for:
+
+```
+<<<<<<<< HEAD
+
+Version 1 Text
+
+=========
+
+Version 2 Text
+
+>>>>>>>> Revision abcd12345567
+```
+
+Decide which version is the correct one (or merge them manually).
+Delete the other version, including the tags (`<<<<<<<< HEAD`, `=========` and `>>>>>>>> Revision abcd12345567`)
+
+2. Commit locally.
+3. Push.
