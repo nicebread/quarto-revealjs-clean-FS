@@ -66,9 +66,120 @@ It even gets smaller with the `{.smallest}` class:
 But if you need the `{.smallest}` class as a "last resort" to squeeze everything onto one slide, you should consider to split it over multiple slides.
 
 ---
+For changing the text to a specific font size, use this:
+
+```
+<div style=" font-size: 24px;"> 
+Text
+</div>
+```
+---
+
+For changing the text color, use this:
+
+```
+<div style="color: gray;"> 
+Text
+</div>
+```
+---
+
+For changing both the font size and the text color, use this:
+
+```
+<div style="font-size: 24px; color: gray;"> 
+Text
+</div>
+```
+---
 
 For **highlighting** words or short sentences with a yellow background, use `{.hl}`:
 `This is a [highlighted]{.hl} word.`
+
+---
+
+
+## Changing the position of the text
+
+To center the text, use this:
+
+```
+<div style="text-align: center;">
+Text
+</div>
+```
+
+If the only text on the slide is the title, and it needs to be centered, use this:
+
+```
+<div style="display: flex; align-items: center; justify-content: center; height: 600px;">
+  <h1>Title</h1>
+</div>
+```
+You can adjust the position of the text by changing the height values in the code.
+
+
+To reduce the space above or under the text, you have to change the margins:
+
+```
+<div style="margin-bottom: -40px;">
+Text
+</div>
+```
+To change the margin above the text, use 'margin-top'.
+To change the margin on the left side of the text, use 'margin-left'.
+To change the margin on the right side of the text, use 'margin-right'.
+
+You can also add some space above or below the text, or on its sides, by using:
+
+```
+<div style="margin-bottom: 40px;">
+Text
+</div>
+```
+
+To split the text, use the `<br>` command:
+
+```
+This text is too long <br> and it needs to be split.
+```
+---
+
+## Changing the style of the text
+
+Italic text:
+
+```
+*Text*
+```
+
+Bold text:
+
+```
+**Text**
+```
+
+Bold and italic text:
+
+```
+***Text***
+```
+
+Underlining text:
+
+```
+<u>underlined</u>
+```
+
+Underlining text with a specific color:
+
+```
+<span style="border-bottom: 2px solid #89CFF0; display: inline;">Text</span>
+```
+
+'#89CFF0' is a code for a baby blue underline. You can change it to any color you wish, but you need to look up the specific color code on the internet.
+
+If you want to change the thickness of the underline, you can do it by changing this part of the code '2px'.
 
 ---
 
@@ -82,6 +193,42 @@ Put links and references into the **footer**. Whenever possible, provide an html
 ::: footer
 See Schönbrodt, F. D., & Perugini, M. (2013). At what sample size do correlations stabilize? *Journal of Research in Personality, 47*, 609-612. doi:[10.1016/j.jrp.2013.05.009](http://www.sciencedirect.com/science/article/pii/S0092656613000858). [OA version](https://osf.io/5u6hv/).
 :::
+```
+
+If the text in the footer is too long, shorten it.
+
+Before:
+
+```
+::: {.footer}
+
+                                                    
+Benjamin, D. J., Berger, J. O., Johannesson, M., Nosek, B. A., Wagenmakers, E. J., Berk, R., ... & Cesarini, D. (2018). Redefine statistical significance. Nature Human Behaviour, 2(1), 6. doi:10.1038/s41562-017-0189-z
+
+
+Bondareva, D. (2013). Introduction to Power Analysis. Presentation for EPSE 482 Introduction to Statistics for Research in Education. Slides available [slideshare.net/dbondareva/introduction-to-power-analysis](slideshare.net/dbondareva/introduction-to-power-analysis)
+                                                    
+                                                    
+Lakens, D., Adolfi, F. G., Albers, C. J., Anvari, F., Apps, M. A., Argamon, S. E., ... & Buchanan, E. M. (2018). Justify your alpha. Nature Human Behaviour, 2, 168-171. doi: 10.1038/s41562-018-0311-x
+
+                                                    
+:::
+
+```
+After (without line break, shorter; set the link to the doi):
+
+```
+::: {.footer}
+                                                    
+::: {.smaller}
+                                                    
+Benjamin et al. (2018). Redefine statistical significance. doi:[10.1038/s41562-017-0189-z]([10.1038/s41562-017-0189-z]()); Lakens et al. (2018). Justify your alpha.
+ doi:[10.1038/s41562-018-0311-x](https://pure.tue.nl/ws/portalfiles/portal/119109470/Lakens_et_al._2018_Justify_your_alpha.pdf)
+                                                    
+:::
+                                                    
+:::
+
 ```
 
 **Example for image source**:
