@@ -183,6 +183,19 @@ If you want to change the thickness of the underline, you can do it by changing 
 
 ---
 
+More finegrained control over the style can be achieved by adding CSS attributes to a div:
+
+```
+::: {#test .hl style="text-size: 80%; color: red;"}
+CONTENT
+:::
+```
+
+- `#test` is the id of the div
+- `.hl` is the class of the div (defined in the CSS file)
+- in the `style` string, you can add any CSS attribute you like (on top of the attributes already defined in your separate CSS file). Don't forget to separate attributes with a semicolon.
+
+
 ### References
 
 Put links and references into the **footer**. Whenever possible, provide an html link to the source. Try to find an Open Access version of papers and add this as additional link (if the original source is not already OA).
@@ -257,7 +270,8 @@ If many references are on one slide, you can "distribute" them across the footer
 When shrinking images, only use *either* `height=???px` *or* `width=???px` (otherwise the aspect ratio of the image is changed).
 
 ```
-![](img/Observation-Intervention-Modells-Graph.jpg){ height=300px }
+![](img/Observation-Intervention-Modells-Graph.jpg){height=300px}
+![](img/reportedeffectsize.png){fig-align="center" height=420px}
 ```
 
 
