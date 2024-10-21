@@ -274,6 +274,11 @@ When shrinking images, only use *either* `height=???px` *or* `width=???px` (othe
 ![](img/reportedeffectsize.png){fig-align="center" height=420px}
 ```
 
+Add a drop-shadow to images with the `.ds` class:
+
+```
+![](img/forestplot.png){.ds}
+```
 
 # Troubleshooting: How to resolve merge conflicts after pulling
 
