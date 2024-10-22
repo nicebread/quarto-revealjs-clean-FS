@@ -312,3 +312,29 @@ $selection-bg: #26351c !default;
 .reveal .smallest {
   font-size: 70%;
 }
+
+
+
+// new class: Tables with grid lines
+
+.table-grid table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table-grid th, td {
+  border: 1px solid #868585 !important;
+  text-align: left;
+  padding: 8px;
+}
+
+.table-grid tr:nth-child(even) {
+  background-color: #f9f9f9 !important;
+}
+
+.table-grid th {
+  background-color: #6a6969;
+  color: white;
+  text-align: center !important;
+}
+
